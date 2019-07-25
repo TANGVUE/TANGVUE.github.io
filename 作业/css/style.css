@@ -1,0 +1,354 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #e4e4e47d;
+}
+
+#warp{
+    width: 1326px;
+    margin: 0px auto;
+}
+
+#warp > div{
+    width: 100%;
+}
+
+#warp .header{
+    height: 83px;
+    background-color: white;
+}
+#warp .header .logo{
+    width: 220px;
+    height: 100%;
+    margin-left: 77px;
+    float: left;
+}
+
+#warp .header .logo img{
+    width: 100%;
+    height: 100%;
+}
+#warp .header ul{
+    float: right;
+    list-style: none;
+    margin-right: 90px;
+}
+#warp .header li{
+    float: left;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    line-height: 83px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+#warp .header li a{
+    display: block;
+    width: 100%;
+    height: 51px;
+    line-height: 51px;
+    color: black;
+    margin-top: 12px;
+    text-decoration: none;
+}
+#warp .header li:hover a{
+    color: #f13a3a;
+    border-bottom:3px solid #f13a3a ;
+    box-sizing: border-box;
+}
+
+#warp .banner{
+    height: 700px;
+}
+#warp .more{
+    height: 210px;
+    background-color: #1b252e;
+}
+#warp .more .content{
+    width: 770px;
+    height: 100%;
+    float: left;
+    color: white;
+    margin-left: 77px;
+}
+#warp .more .content h2{
+    padding: 15px 0px;
+    margin-top: 30px;
+}
+#warp .more .content p{
+    line-height: 35px;
+}
+#warp .more .more-btn{
+    float: left;
+    margin-left: 140px;
+    height: 55px;
+    width: 165px;
+    background-color: white;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 50px;
+    margin-top: 77px;
+}
+#warp .fuwu{
+    height: 600px;
+    background-color: white;
+}
+#warp .fuwu .fuwu-in{
+    width: 1180px;
+    height: 100%;
+    margin: 0px auto;
+}
+
+#warp .fuwu .fuwu-in h1{
+    padding-top:70px;
+    padding-bottom:50px;  
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid #67676752;
+}
+
+#warp .fuwu .fuwu-in .fuwu-item{
+    width:295px;
+    height: 420px; 
+    float: left;
+    text-align: center;
+}
+
+#warp .fuwu .fuwu-in .fuwu-item h2{
+    color: #2b2b2bd1;
+    padding: 15px 0px;
+}
+#warp .fuwu .fuwu-in .fuwu-item p{
+    color: #2b2b2bd1;
+    font-size: 13px;
+}
+#warp .anli{
+    height: 715px;
+    background-color: #ebebeb;
+}
+#warp .anli .anli-in{
+    width: 1180px;
+    height: 100%;
+    margin: 0px auto;
+}
+#warp .anli .anli-in h1{
+    padding-top: 70px;
+    text-align: center;
+}
+#warp .anli .anli-in >p{
+    padding-top: 20px;
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
+    line-height: 35px;
+}
+#warp .anli .anli-in .anli-item{
+    width: 273px;
+    height: 212px;
+    float: left;
+    margin-left: 29px;
+    margin-top: 20px;
+    background-color: white;
+    text-align: center;
+    box-shadow:0px 0px 3px 0px #00000059;
+}
+#warp .anli .anli-in .anli-item img {
+    width: 255px;
+    height: 165px;
+    margin-top: 10px;
+}
+#warp .anli .anli-in .anli-item p{
+    font-size: 12px;
+    line-height: 32px;
+}
+
+#warp .title{
+    height: 425px;
+}
+
+#warp .youshi{
+    height: 600px;
+    background-color: white;
+}
+#warp .youshi .youshi-in{
+    width: 1180px;
+    height: 100%;
+    margin: 0px auto;
+}
+#warp .youshi .youshi-in h1{
+    padding-top: 70px;
+    text-align: center;
+}
+#warp .youshi .youshi-in >p{
+    padding-top: 20px;
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+#warp .youshi .youshi-in .youshi-item{
+    width: 295px;
+    height: 400px;
+    float: left;
+    text-align: center;
+
+}
+#warp .youshi .youshi-in .youshi-item h2{
+    font-size: 30px;
+    color: #f13a3a;
+}
+#warp .youshi .youshi-in .youshi-item p{
+    color: #999999;
+    font-size: 17px;
+    line-height: 63px;
+}
+
+#warp .jiazhi{
+    height: 535px;
+}
+#warp .jiazhi .letf{
+    width: 662px;
+    height: 100%;
+    float: left;
+}
+#warp .jiazhi .right{
+    width:664px; 
+    float: left;
+    height: 100%;
+    background-color: white;
+}
+#warp .jiazhi .right h1{
+    margin-top: 150px;
+    font-size: 38px;
+    margin-left: 94px;
+    margin-bottom: 33px;
+}
+#warp .jiazhi .right p{
+    font-size: 16px;
+    line-height: 34px;
+    margin-left: 94px;
+}
+
+
+#warp .lianxi{
+    height: 705px;
+    background-color: white;
+}
+#warp .lianxi h2{
+    font-size: 32px;
+    padding-top: 84px;
+    text-align: center;
+}
+#warp .lianxi p{
+    padding: 20px 0px;
+    text-align: center;
+}
+#warp .lianxi h3{
+    font-size: 20px;
+    text-align: center;
+}
+#warp .lianxi .lianxi-list{
+    width: 1156px;
+    height: 88px;
+    padding-top:80px; 
+    margin: 0px auto;
+}
+#warp .lianxi .lianxi-list .lianxi-item{
+    width: 350px;
+    height: 88px;
+    float: left;
+    margin-left: 52px;
+    border: 1px solid #cacaca;
+    box-sizing:border-box;
+}
+#warp .lianxi .erweima{
+    width: 350px;
+    height: 90px;
+    border: 3px solid black;
+    margin: 0px auto;
+    margin-top: 140px;
+    text-align: center;
+}
+#warp .lianxi .erweima  img{
+    margin-top: -72px;
+}
+
+#warp .items{
+    height: 515px;
+    background-color: #ebebeb;
+}
+#warp .item{
+    width: 275px;
+    height: 285px;
+    margin-left: 30px;
+    float: left;
+    margin-top: 100px;
+    background-color: white;
+}
+#warp .item :nth-child(2){
+    padding-top: 26px;
+    text-align: center;
+    font-size: 16px;
+}
+#warp .item :nth-child(3){
+    font-size: 12px;
+    color: #777777;
+    text-align: center;
+    padding-top: 18px;
+}
+
+
+#warp .footer{
+    height: 260px;
+    background-color: #1b252e;
+    border-top: 3px solid red;
+}
+#warp .footer .footer-in{
+    width: 1180px;
+    height: 100%;
+    margin: 0px auto;
+}
+#warp .footer .footer-in .top{
+    width: 100%;
+    height: 140px;
+    border-bottom: 1px solid #7c848d4a;
+}
+
+#warp .footer .footer-in .top div{
+    width: 295px;
+    height: 100%;
+    float: left;
+    font-size: 12px;
+    color: #828b94;
+    text-align: center;
+    line-height: 140px;
+}
+#warp .footer .footer-in .bottom{
+    width: 100%;
+    height: 120px;
+}
+#warp .footer .footer-in .bottom ul{
+    list-style: none;
+    height: 30px;
+    width: 700px;
+    padding-top: 28px;
+    margin: 0px auto;
+}
+
+#warp .footer .footer-in .bottom li{
+    width: 100px;
+    float: left;
+    text-align: center;
+    color: #828b94;
+    font-size: 12px;
+}
+#warp .footer .footer-in .bottom p{
+    text-align: center;
+    color: #828b94;
+    font-size: 12px;
+    padding-top: 8px;
+}

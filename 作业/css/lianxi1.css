@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#warp{
+    width: 1205px;
+    height: 66px;
+    margin: 100px auto;
+}
+
+#warp .item{
+    width: 158px;
+    height: 58px;
+    border: 1px solid #e3e3e3;
+    margin-left: 13px;
+    float: left;
+    text-align: center;
+}
+
+img{
+    margin-top: 7px;
+}

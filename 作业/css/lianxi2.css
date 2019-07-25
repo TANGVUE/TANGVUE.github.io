@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#warp{
+    width: 1154px;
+    height: 396px;
+    margin: 100px auto;
+}
+
+#warp ul{
+    float: left;
+    list-style: none;
+}
+
+#warp span{
+    float: right;
+    color: #999999;
+}
+
+#warp .left,
+#warp .right{
+    width: 500px;
+} 
+#warp .right{
+    margin-left: 100px;
+}
+#warp li{
+    font-size: 16px;
+    line-height: 30px;
+}
