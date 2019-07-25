@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="67px" viewBox="0 0 57 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>红蓝军</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-34.2748896%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#2161FF" offset="0%"></stop>
+            <stop stop-color="#8AE7FE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-34.2748896%" y1="50%" x2="143.556213%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#2161FF" offset="0%"></stop>
+            <stop stop-color="#8AE7FE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="152.378401%" x2="50%" y2="24.2348222%" id="linearGradient-3">
+            <stop stop-color="#2161FF" offset="0%"></stop>
+            <stop stop-color="#5CAEFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#2161FF" offset="0%"></stop>
+            <stop stop-color="#5CAEFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="109.742647%" y1="50%" x2="-98.839614%" y2="50%" id="linearGradient-5">
+            <stop stop-color="#DEFFF7" offset="0%"></stop>
+            <stop stop-color="#69C9B3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="168.454706%" x2="50%" y2="-25.4150391%" id="linearGradient-6">
+            <stop stop-color="#9CECCF" offset="0%"></stop>
+            <stop stop-color="#56B291" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="厂商首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="厂商首页-v2" transform="translate(-1087.000000, -1261.000000)">
+            <g id="测试展示板块-copy-6" transform="translate(976.000000, 1232.000000)">
+                <g id="红蓝军" transform="translate(111.000000, 29.000000)">
+                    <g id="Group" transform="translate(0.000000, 2.000000)">
+                        <polygon id="Fill-1" fill="url(#linearGradient-1)" points="28.4068359 0 0 16.5257341 28.5928541 33.0508475 57 16.5254237 28.407766 0"></polygon>
+                        <polygon id="Fill-1-Copy-10" fill="url(#linearGradient-2)" points="28.4426682 6.61016949 10.9615385 17.0764677 28.557141 27.5423729 46.0384615 17.0762712 28.4432406 6.61016949"></polygon>
+                        <polygon id="Fill-2" fill="url(#linearGradient-3)" points="28.5905362 33.0758683 28.5 65 56.9097738 48.4498662 57 16.5254237"></polygon>
+                        <polygon id="Fill-3" fill="url(#linearGradient-4)" points="0 48.4500709 28.410357 65 28.5 33.0756636 0.089951036 16.5254237"></polygon>
+                        <polygon id="Fill-1" fill="#86E4E9" points="7.75304469 33.0508475 7.67307692 45.7208507 9.78584221 46.2711864 9.86538462 33.6009913"></polygon>
+                        <polygon id="Fill-1-Copy-11" fill="#86E4E9" points="15.4261216 37.4576271 15.3461538 50.1276303 17.4589191 50.6779661 17.5384615 38.007771"></polygon>
+                    </g>
+                    <g id="Group-Copy-5" transform="translate(17.000000, 0.000000)">
+                        <polygon id="Fill-1" fill="url(#linearGradient-5)" points="11.960773 0 0 6.74086733 12.0390965 13.4814815 24 6.74074074 11.9611646 0"></polygon>
+                        <polygon id="Fill-2" fill="url(#linearGradient-5)" points="12.0381205 13.3163383 12 26 23.96201 19.424526 24 6.74074074"></polygon>
+                        <polygon id="Fill-3" fill="url(#linearGradient-5)" points="0 19.4246073 11.9622556 26 12 13.3162569 0.0378741204 6.74074074"></polygon>
+                        <path d="M10.7437104,8.15887084 C10.9491823,8.27668669 11.2818843,8.27636391 11.4860097,8.15854806 C11.690135,8.04073221 11.6881384,7.85019794 11.4827128,7.7324282 C11.2772409,7.61461236 10.9456997,7.61396679 10.7415744,7.73173653 C10.5368918,7.84987516 10.5382384,8.041055 10.7437104,8.15887084 Z M13.4598405,6.19782494 L11.7075943,7.20901229 C11.5202782,7.31714464 11.5212533,7.4932459 11.7098232,7.60133214 C11.8992289,7.70997172 12.2044882,7.70946449 12.3918507,7.60133214 L14.1440505,6.59014479 C14.3319702,6.48168965 14.3312737,6.30646452 14.1418216,6.19782494 C13.9532982,6.0897387 13.6477603,6.08941592 13.4598405,6.19782494 Z M13.7154151,9.68950849 C13.7197335,9.77670605 13.5530342,9.87870552 13.3234164,9.92292681 C13.1402794,9.95889407 12.9732551,9.94676665 12.8920879,9.90028588 C12.8854942,9.8965047 12.8795042,9.89249297 12.8740249,9.88825068 L7.75793602,6.96240597 C7.7434485,6.95415195 7.72882169,6.94820351 7.71563433,6.94068728 C7.6414787,6.89812601 7.61398957,6.80405779 7.65629125,6.70288833 C7.70411862,6.58525693 7.82772683,6.50091831 7.94237321,6.5012872 L14.8068078,5.43956124 C14.9504756,5.39077487 15.177911,5.42120871 15.3483715,5.51891978 C15.5176246,5.61598528 15.5736244,5.74565187 15.4916214,5.82846881 L13.7154151,9.68950849 Z" id="Fill-1" fill="url(#linearGradient-6)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

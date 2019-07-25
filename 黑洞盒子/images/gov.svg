@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="193px" height="464px" viewBox="0 0 193 464" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>政企</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="5.23578043%" x2="50%" y2="93.4233812%" id="linearGradient-1">
+            <stop stop-color="#447592" offset="0%"></stop>
+            <stop stop-color="#8DAEC2" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="5.89607578%" x2="50%" y2="93.4233812%" id="linearGradient-2">
+            <stop stop-color="#3B6784" offset="0%"></stop>
+            <stop stop-color="#8DAEC2" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="93.4233812%" id="linearGradient-3">
+            <stop stop-color="#5C859E" offset="0%"></stop>
+            <stop stop-color="#8DAEC2" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="73.8564059%" y1="75.2549466%" x2="-25.7309654%" y2="-26.2133843%" id="linearGradient-4">
+            <stop stop-color="#355F79" offset="0%"></stop>
+            <stop stop-color="#83B7D6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="93.4233812%" id="linearGradient-5">
+            <stop stop-color="#4A7590" offset="0%"></stop>
+            <stop stop-color="#95C2D9" stop-opacity="0.243348053" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="93.4233812%" id="linearGradient-6">
+            <stop stop-color="#3D6884" offset="0%"></stop>
+            <stop stop-color="#8FBDD4" stop-opacity="0.271144701" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="50%" x2="-32.0567255%" y2="-27.4810285%" id="linearGradient-7">
+            <stop stop-color="#537F9A" offset="0%"></stop>
+            <stop stop-color="#6495B2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="厂商首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="厂商首页-v2-hover" transform="translate(-1726.000000, -2879.000000)">
+            <g id="Group-29" transform="translate(1535.000000, 2879.000000)">
+                <g id="政企" transform="translate(191.000000, -50.000000)">
+                    <g id="Group">
+                        <polygon id="Fill-1" fill="url(#linearGradient-1)" points="-4.26325641e-14 485.593538 94.2930412 540.916438 95.1621015 97.3176435 0.863948168 41.9895484"></polygon>
+                        <polygon id="Fill-2" fill="url(#linearGradient-2)" points="94.3827078 97.696183 93.4925909 538.390697 167.735716 496.115558 168.620566 55.4262039"></polygon>
+                        <polygon id="Fill-1-Copy-3" fill="url(#linearGradient-3)" points="35.0597216 440.334195 38.607398 445.115398 39.4764583 87.0859122 35.9236698 82.2995149"></polygon>
+                        <polygon id="Fill-1-Copy-4" fill="url(#linearGradient-3)" points="48.415806 450.411687 51.9634824 455.192889 52.8325427 97.1634038 49.2797542 92.3770065"></polygon>
+                        <polygon id="Fill-1-Copy-5" fill="url(#linearGradient-3)" transform="translate(127.148406, 274.538627) scale(-1, 1) translate(-127.148406, -274.538627) " points="125.213291 450.411687 128.321994 455.192889 129.08352 97.1634038 125.213291 93.8843657"></polygon>
+                        <polygon id="Fill-1-Copy-6" fill="url(#linearGradient-3)" transform="translate(140.504490, 266.140718) scale(-1, 1) translate(-140.504490, -266.140718) " points="138.569376 442.013777 141.678078 446.794979 142.439605 88.7654941 138.569376 85.486456"></polygon>
+                        <polygon id="Fill-3" fill="url(#linearGradient-4)" points="73.0424847 0 0 41.6206662 96.014791 97.9849076 168.860232 55.8411788"></polygon>
+                    </g>
+                    <g id="Group-Copy-3" transform="translate(110.000000, 192.000000)">
+                        <polygon id="Fill-1" fill="url(#linearGradient-5)" points="0 282.328713 66.646615 321.348628 67.2608696 68.8260729 0.610641255 29.8024938"></polygon>
+                        <polygon id="Fill-1-Copy-3" fill="url(#linearGradient-3)" opacity="0.787890625" points="23.2826087 261.615346 26.8396403 266.394146 27.7109923 68.544525 23.2826087 66.0837905"></polygon>
+                        <polygon id="Fill-1-Copy-7" fill="url(#linearGradient-3)" opacity="0.787890625" points="36.2173913 268.094149 39.7744229 272.872949 40.6457749 75.023328 36.2173913 72.5625935"></polygon>
+                        <polygon id="Fill-2" fill="url(#linearGradient-6)" points="66.5957221 68.78127 65.9673913 320.052868 118.375387 290.140764 119 38.872818"></polygon>
+                        <polygon id="Fill-3" fill="url(#linearGradient-7)" points="51.4748534 0 0 29.1709437 66.8111838 68.7006195 119 39.1377657"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

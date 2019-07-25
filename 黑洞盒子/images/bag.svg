@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="162px" height="225px" viewBox="0 0 162 225" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>购物袋</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="42.0766415%" y1="10.4342326%" x2="50%" y2="110.570388%" id="linearGradient-1">
+            <stop stop-color="#1A51B8" offset="0%"></stop>
+            <stop stop-color="#B7BDFC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="42.128694%" y1="0%" x2="72.9657475%" y2="151.438079%" id="linearGradient-2">
+            <stop stop-color="#1A51B8" offset="0%"></stop>
+            <stop stop-color="#B7BFFC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="22.5748438%" y1="11.9029142%" x2="88.7933612%" y2="114.05613%" id="linearGradient-3">
+            <stop stop-color="#0F45A9" offset="0%"></stop>
+            <stop stop-color="#BEB7FC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="80.7845117%" y1="19.8398829%" x2="-32.1314436%" y2="133.877418%" id="linearGradient-4">
+            <stop stop-color="#1A51B8" offset="0%"></stop>
+            <stop stop-color="#BEB7FC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="厂商首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="厂商首页-v2-hover" transform="translate(-990.000000, -2879.000000)">
+            <g id="Group-27" transform="translate(768.000000, 2879.000000)">
+                <g id="购物袋" transform="translate(341.500000, 89.000000) rotate(-9.000000) translate(-341.500000, -89.000000) translate(234.000000, -36.000000)">
+                    <polygon id="Fill-1" fill="url(#linearGradient-1)" points="125.064554 0 0 41.437652 4.50482422 231.377127 180.810855 172.958731"></polygon>
+                    <path d="M87.3936061,39.6110812 C89.9195241,54.2081501 80.7066349,69.7449968 66.8608624,74.2486075 C53.0476299,78.735945 39.7224975,70.5220426 37.1965796,55.9249737 L42.203673,54.2976527 C44.2292883,66.0021586 54.8780053,72.572467 65.9497423,68.9720194 C77.0214793,65.3756401 84.4202631,52.942908 82.3946477,41.2343338 L87.3936061,39.6110812 Z" id="Fill-1" fill="url(#linearGradient-2)" opacity="0.723549107"></path>
+                    <polygon id="Fill-2" fill="url(#linearGradient-3)" points="180.242923 171.72776 212.718653 188.825012 157.447939 17.090059 124.972209 0"></polygon>
+                    <polygon id="Fill-3" fill="url(#linearGradient-4)" points="4.33834095 231.081051 29.6679254 234.481845 29.6679254 249.630709 214.398011 190.520828 181.48527 173.567839"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="205px" height="156px" viewBox="0 0 205 156" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>盒子</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#9FE4FF" offset="0%"></stop>
+            <stop stop-color="#4698E9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="9.47182158%" x2="83.5763889%" y2="82.7832944%" id="linearGradient-2">
+            <stop stop-color="#8ADBFF" offset="0%"></stop>
+            <stop stop-color="#5EA0F2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="15.4884913%" y1="118.572856%" x2="76.7977151%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#3994F7" offset="0%"></stop>
+            <stop stop-color="#7EBAF6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="112.702934%" x2="93.9485166%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#77B8FF" offset="0%"></stop>
+            <stop stop-color="#A1D0FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="厂商首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.573716518">
+        <g id="厂商首页-v2" transform="translate(-564.000000, -3303.000000)">
+            <g id="Group-26" transform="translate(384.000000, 2879.000000)">
+                <g id="盒子" transform="translate(180.000000, 424.000000)">
+                    <polygon id="Fill-1" fill="url(#linearGradient-1)" points="184.074103 0 89.7265625 80.6308594 155.962891 197.306641 252 117.308172"></polygon>
+                    <polygon id="Fill-2" fill="url(#linearGradient-2)" points="0 85.4775388 67.5541338 203 156 196.522461 88.4507112 79"></polygon>
+                    <polygon id="Fill-3" fill="url(#linearGradient-3)" points="186 0 95.711167 6.50033908 0 86 90.5033371 80.1101591"></polygon>
+                    <polygon id="Fill-3-Copy" fill="url(#linearGradient-4)" opacity="0.575111607" points="149 3 131.267224 3 36 83 53.4990426 83"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

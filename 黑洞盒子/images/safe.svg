@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="111px" viewBox="0 0 96 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>项目4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-33.6713336%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#2161FF" offset="0%"></stop>
+            <stop stop-color="#5CAEFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-152.182904%" y1="50%" x2="100%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#2161FF" offset="0%"></stop>
+            <stop stop-color="#5CAEFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-27.8971354%" y1="50%" x2="138.172105%" y2="44.7281755%" id="linearGradient-3">
+            <stop stop-color="#2161FF" offset="0%"></stop>
+            <stop stop-color="#5CAEFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="109.742647%" y1="50%" x2="-98.839614%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#DEFFF7" offset="0%"></stop>
+            <stop stop-color="#69C9B3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="厂商首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="厂商首页-v2" transform="translate(-1373.000000, -4154.000000)">
+            <g id="项目4" transform="translate(1374.000000, 4155.000000)">
+                <g>
+                    <polygon id="Polygon" stroke="#339AFF" points="47 0 94 27.1354627 94 81.406388 47 108.541851 4.26325641e-14 81.406388 1.24344979e-14 27.1354627"></polygon>
+                    <polygon id="Polygon-Copy-11" stroke="#E4F1FF" points="47 8.92264973 86.8708349 31.942087 86.8708349 77.9809615 47 101.000399 7.12916512 77.9809615 7.12916512 31.942087"></polygon>
+                    <polygon id="Polygon-Copy-12" fill="url(#linearGradient-1)" points="81 74.5713793 47.3921875 93.9130465 14.2705078 74.5713793 48.1018622 54.3007812"></polygon>
+                    <polyline id="Path-9" fill="url(#linearGradient-2)" points="14 35.3086976 48 16 48 55.1037528 14 74.8057395"></polyline>
+                    <polyline id="Path-9-Copy" fill="url(#linearGradient-3)" transform="translate(64.512451, 45.326782) scale(-1, 1) translate(-64.512451, -45.326782) " points="48 35.1565225 81.0249023 16 81.0249023 55.1037528 48 74.6535645"></polyline>
+                    <g id="diamond" transform="translate(31.000000, 40.000000)" fill-rule="nonzero">
+                        <polygon id="Shape" fill="#B3D8F5" points="30.8318242 4.777884 16.9792812 0.04318 3.17939844 4.77836 0 9.615404 0 21.259044 17.0840039 33.95682 34 21.2585 34 9.615676"></polygon>
+                        <polygon id="Shape" fill="#C3DFF7" points="34 9.615676 16.9676602 3.793924 0 9.615404 0 21.259044 17.095625 27.080388 34 21.2585"></polygon>
+                        <polygon id="Shape" fill="url(#linearGradient-4)" points="30.8318242 4.777884 16.9792812 0.04318 3.17939844 4.77836 3.17939844 14.247904 17.0840039 18.982608 30.8318242 14.247428"></polygon>
+                        <polygon id="Shape" fill="url(#linearGradient-4)" points="3.17939844 4.77836 0 9.615404 0 21.259044 3.17939844 14.247904"></polygon>
+                        <polygon id="Shape" fill="url(#linearGradient-4)" points="3.17939844 14.247904 17.0840039 18.982608 17.0840039 27.080388 0 21.259044"></polygon>
+                        <polygon id="Shape" fill="url(#linearGradient-4)" points="30.8318242 14.247428 34 21.2585 17.0840039 27.080388 17.0840039 18.982608"></polygon>
+                        <polygon id="Shape" fill="url(#linearGradient-4)" points="30.8318242 4.777884 34 9.615676 34 21.2585 30.8318242 14.247428"></polygon>
+                        <polygon id="Shape" fill="url(#linearGradient-4)" points="0 21.259044 17.0840039 33.95682 17.0840039 27.080388"></polygon>
+                        <polygon id="Shape" fill="url(#linearGradient-4)" points="17.0840039 33.95682 34 21.2585 17.0840039 27.080388"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="1119px" viewBox="0 0 1920 1119" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 38</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1920" height="1119"></rect>
+        <rect id="path-3" x="0" y="0" width="1920" height="1119"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-38">
+            <g id="Rectangle-5" fill="#F5F9FC" fill-rule="nonzero">
+                <rect id="path-1" x="0" y="0" width="1920" height="1119"></rect>
+            </g>
+            <g id="Group-Clipped">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="path-1"></g>
+                <g id="Group" opacity="0.827678571" mask="url(#mask-2)">
+                    <g transform="translate(-371.000000, 238.000000)">
+                        <g>
+                            <polygon id="Fill-1" fill="#EAF2FC" fill-rule="nonzero" points="365.937602 63 42 251.50354 368.058862 440 692 251.5 365.948209 63"></polygon>
+                            <polygon id="Fill-2" fill="#F0F6FC" fill-rule="nonzero" points="371.041961 439.808166 370 804 696.961608 615.19538 698 251"></polygon>
+                            <g id="Group-37">
+                                <polygon id="Polygon-2-Copy-5" stroke="#339AFF" opacity="0.559486607" points="371 0 742 213.5 742 640.5 371 854 3.19744231e-13 640.5 8.52651283e-14 213.5"></polygon>
+                                <path d="M367.623041,227.31449 L733.9175,440.410342" id="Line-9-Copy" stroke="#AFD8FD" opacity="0.800000012" stroke-linecap="square" transform="translate(550.770271, 333.862416) scale(-1, 1) rotate(-180.000000) translate(-550.770271, -333.862416) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-Copy-6-Clipped">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="path-1"></g>
+                <g id="Group-Copy-6" opacity="0.191741071" mask="url(#mask-4)">
+                    <g transform="translate(1638.000000, -138.000000)" id="Group">
+                        <g>
+                            <polygon id="Fill-1" fill="#EAF2FC" fill-rule="nonzero" points="365.937602 63 42 251.50354 368.058862 440 692 251.5 365.948209 63"></polygon>
+                            <polygon id="Fill-3" fill="#D7E4FB" fill-rule="nonzero" points="42 614.514886 369.965174 804 371 438.488673 43.0383821 249"></polygon>
+                            <g id="Group-37">
+                                <polygon id="Polygon-2-Copy-5" stroke="#339AFF" opacity="0.559486607" points="371 0 742 213.5 742 640.5 371 854 3.19744231e-13 640.5 8.52651283e-14 213.5"></polygon>
+                                <path d="M2.35277027,224.448718 L368.64723,437.544571" id="Line-9" stroke="#AFD8FD" opacity="0.800000012" stroke-linecap="square"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

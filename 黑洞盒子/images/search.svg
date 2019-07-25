@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="厂商首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="厂商首页-v2" transform="translate(-714.000000, -414.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1920" height="6487"></rect>
+            <g id="Group-33" stroke="#339AFF" stroke-width="3">
+                <g id="Search" transform="translate(728.000000, 427.500000) rotate(-45.000000) translate(-728.000000, -427.500000) translate(719.000000, 414.000000)">
+                    <circle id="Oval-2" cx="8.759447" cy="8.759447" r="8.759447"></circle>
+                    <path d="M8.759447,19.3644626 L8.759447,26.4567542" id="Line" opacity="0.5" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

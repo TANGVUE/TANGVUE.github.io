@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="106px" viewBox="0 0 110 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="110" height="106"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#2161FF" offset="0%"></stop>
+            <stop stop-color="#5CAEFF" stop-opacity="0.322916667" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="31.9510555%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#2161FF" offset="0%"></stop>
+            <stop stop-color="#339AFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hover">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Rectangle" fill-rule="nonzero"></g>
+            <polygon id="Polygon-2" fill="url(#linearGradient-3)" fill-rule="nonzero" mask="url(#mask-2)" points="21.5 -45 86.884918 -7.25 86.884918 68.25 21.5 106 -43.884918 68.25 -43.884918 -7.25"></polygon>
+            <polygon id="Polygon-2-Copy" fill="url(#linearGradient-4)" fill-rule="nonzero" mask="url(#mask-2)" points="44.5 -76 109.884918 -38.25 109.884918 37.25 44.5 75 -20.884918 37.25 -20.884918 -38.25"></polygon>
+        </g>
+    </g>
+</svg>

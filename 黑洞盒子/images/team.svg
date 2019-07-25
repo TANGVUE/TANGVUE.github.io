@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="111px" viewBox="0 0 96 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>项目1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-27.8971354%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#2161FF" offset="0%"></stop>
+            <stop stop-color="#5CAEFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="109.742647%" y1="50%" x2="-98.839614%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#DEFFF7" offset="0%"></stop>
+            <stop stop-color="#69C9B3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="厂商首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="厂商首页-v2" transform="translate(-451.000000, -4154.000000)">
+            <g id="项目1" transform="translate(452.000000, 4155.000000)">
+                <g>
+                    <path d="M47.5,0.5 L47.5,54.5" id="Line-10" stroke="#E4F1FF" stroke-linecap="square"></path>
+                    <polygon id="Polygon" stroke="#339AFF" points="47.1983845 0 94.396769 27.25 94.396769 81.75 47.1983845 109 2.66453526e-14 81.75 -3.55271368e-15 27.25"></polygon>
+                    <polyline id="Polygon-Copy" stroke="#B5DAFF" opacity="0.359207589" points="0 27 47.1983845 54.25 47.1983845 108.75"></polyline>
+                    <path d="M47,55 L94.1983845,82.25" id="Polygon-Copy-4" stroke="#B5DAFF" opacity="0.359207589"></path>
+                    <path d="M47,55.25 L94.1983845,28" id="Polygon-Copy-2" stroke="#B5DAFF" opacity="0.359207589"></path>
+                    <g id="Group-32" transform="translate(0.000000, 41.000000)" fill="url(#linearGradient-1)">
+                        <polygon id="Fill-1" points="0 14.0002629 24.0781929 28 48 14 23.9223293 0"></polygon>
+                        <polygon id="Fill-2" points="24.076241 27.6570102 24 54 47.9240201 40.3432463 48 14"></polygon>
+                        <polygon id="Fill-3" points="0 40.3434152 23.9245112 54 24 27.6568413 0.0757482409 14"></polygon>
+                    </g>
+                    <g id="Group-32-Copy" transform="translate(62.000000, 18.000000)" fill="url(#linearGradient-2)">
+                        <polygon id="Fill-1" points="0 9.50017841 16.0521286 19 32 9.5 15.9482195 0"></polygon>
+                        <polygon id="Fill-2" points="16.0508274 18.5599072 16 37 31.9493467 27.4402724 32 9"></polygon>
+                        <polygon id="Fill-3" points="0 27.4403906 15.9496741 37 16 18.5597889 0.0504988272 9"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
