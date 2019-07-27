@@ -123,6 +123,7 @@
 
 #wrap .banner{
     position: relative;
+    min-height: 466px;
 }
 
 #wrap .banner .lunbotu-box{
@@ -130,6 +131,8 @@
 }
 #wrap .banner .lunbotu-box img{
     width: 100%;
+    min-width: 1600px;
+    min-height: 466px;
 }
 
 #wrap .banner .lunbotu-box li{
