@@ -160,6 +160,7 @@
 
 #wrap .mid-box {
     height: 106px;
+    margin-top: 10px;
     overflow: hidden;
 }
 #wrap .mid-box .content{
