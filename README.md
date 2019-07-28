@@ -7,3 +7,5 @@
 [360首页删减版](https://tangvue.github.io/360%E9%A6%96%E9%A1%B5/html/index.html);
 
 [小鹿首页](https://tangvue.github.io/%E5%B0%8F%E9%B9%BF/html/xiaolu.html);
+
+[婚礼纪](https://tangvue.github.io/%E5%A9%9A%E7%A4%BC%E7%BA%AA/html/);
