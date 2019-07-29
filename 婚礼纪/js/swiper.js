@@ -24,6 +24,26 @@
     }, 3000);
 
 
+    for (var i = 0; i < points.length; i++) {
+        points[i].onclick = function () {
+            for (var i = 0; i < points.length; i++) {
+                lis[i].setAttribute('class', 'lis');
+                intro[i].style.display = 'none';
+                points[i].style.backgroundColor = "#cccccc";
+            }
+
+            for (var n = 0; n < points.length; n++) {
+                if (this === points[n]) {
+                    index = n;
+                    this.style.backgroundColor = "#f83244";
+                    lis[n].setAttribute('class', 'center');
+                    intro[n].style.display = 'block';
+                }
+            }
+        }
+    }
+
+
 
 
 

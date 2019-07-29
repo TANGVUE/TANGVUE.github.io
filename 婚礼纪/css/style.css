@@ -138,6 +138,8 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    opacity: 0;
+    transition: all 0.4s;
 }
 #wrap .banner .lunbotu li img{
     width: 100%;
@@ -157,6 +159,8 @@
     float: left;
     border-radius: 50%;
     margin-right: 16px;
+    transition: all 0.4s;
+    cursor: pointer;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -430,6 +434,14 @@
     float: left;
     margin-top: 46px;
 }
+#wrap .hotcity .bgimage:hover p{
+    bottom: 0px;
+    height: 100%;
+}
+#wrap .hotcity .center .pic:hover p{
+    bottom: 0px;
+    height: 100%;
+}
 
 #wrap .hotcity .bgimage:nth-child(2){
     background: url(../images/w-pic1.jpg) center center no-repeat;
@@ -482,6 +494,7 @@
     font-size: 14px;
     bottom: 0px;
     height: 52px;
+    transition: all 0.3s;
     background-color: rgba(0, 0, 0, 0.6);
 }
 #wrap .hotcity .a-center{
@@ -531,7 +544,7 @@
 }
 #wrap .pic-box .swiper .lis{
     opacity: 0.9;
-    transition: all 0.4s ease;
+    transition: all 0.2s ease;
 }
 #wrap .pic-box .swiper .center{
     position: absolute;
@@ -541,7 +554,7 @@
     opacity: 1;
     z-index: 99;
     top:150px;
-    transition: all 0.4s ease;
+    transition: all 0.2s ease;
     box-shadow: 0px 1px 5px #2b2b2b42;
     transform: translateX(-50%);
 }
@@ -615,6 +628,7 @@
     border-radius: 50%;
     margin-right: 24px;
     float: left;
+    cursor: pointer;
     background-color: #cccccc;
 }
 #wrap .pic-box a{
@@ -752,7 +766,12 @@
     height: 108px;
     background-color: white;
     padding: 0px 15px;
+    transition: all 0.1s;
     box-shadow: 0px 1px 3px 0px #bfbfbf66;
+}
+
+#wrap .yongpin .item:hover .item-in{
+    box-shadow: 0px 1px 8px 0px #0000005c;
 }
 
 #wrap .yongpin .item .item-in h3{
@@ -786,6 +805,7 @@
 }
 
 #wrap .meitu{
+    position: relative;
     height: 1606px;
 }
 
@@ -825,6 +845,10 @@
     opacity: 0.6;
     float: left;
 }
+
+#wrap .meitu .meitu-in .meitu-main .meitu-rt img:hover{
+    opacity: 1;
+}
 #wrap .meitu .meitu-in .meitu-main .meitu-rt .text{
     float: right;
     width: 208px;
@@ -863,6 +887,11 @@
 }
 #wrap .meitu .meitu-in .meitu-main .box img{
     opacity: 0.6;
+    transition: all 0.3s;
+}
+
+#wrap .meitu .meitu-in .meitu-main .box img:hover{
+    opacity: 1;
 }
 
 #wrap .meitu .meitu-in .meitu-main .meitu-b-lt{
@@ -902,3 +931,120 @@
     bottom: -40px;
     left: 0px;
 }
+
+#wrap .meitu .meitu-in >a{
+    position: absolute;
+    display: block;
+    width: 160px;
+    height: 48px;
+    background-color: #f83244;
+    line-height: 48px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+
+#wrap .baike{
+    margin-top: 60px;
+    height: 675px;
+}
+
+#wrap .baike .item{
+    width: 400px;
+    height: 428px;
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    transition: all 0.1s;
+}
+#wrap .baike .content .item:nth-child(2):hover{
+    height: 500px;
+    margin-top: 50px;
+    border: 1px solid #d8d8d8 !important;
+    background: url(../images/c-1bg.png) center top no-repeat;
+}
+#wrap .baike .content .item:nth-child(3):hover{
+    height: 500px;
+    margin-top: 50px;
+    border: 1px solid #d8d8d8 !important;
+    background: url(../images/c-2bg.png) center top no-repeat;
+}
+#wrap .baike .content .item:nth-child(4):hover{
+    height: 500px;
+    margin-top: 50px;
+    border: 1px solid #d8d8d8 !important;
+    background: url(../images/c-3bg.png) center top no-repeat;
+}
+#wrap .baike .item p{
+    font-size: 23px;
+    margin-top: 48px;
+}
+#wrap .baike .item span{
+    vertical-align: middle;
+}
+
+#wrap .baike .item img{
+    width: 28px;
+}
+#wrap .baike .content .item:nth-child(2){
+    border-right: 0px;
+}
+#wrap .baike .content .item:nth-child(3){
+    border-right: 0px;
+}
+
+#wrap .baike .item .ul1{
+    margin: 24px auto;
+    padding: 0px 42px;
+}
+
+#wrap .baike .item .ul1 li{
+    float: left;
+    font-size: 12px;
+    margin-right:15px; 
+}
+
+#wrap .baike .item  .ul2{
+    padding: 0px 30px;
+    margin-top:73px; 
+}
+
+#wrap .baike .item  .ul2 li{
+    font-size: 14px;
+    padding: 13px 0px;
+}
+
+#wrap .baike .item  .ul2 li span:nth-child(1){
+    float: left;
+}
+
+#wrap .baike .item  .ul2 li span:nth-child(2){
+    float: right;
+    color: #666666;
+}
+
+#wrap .footer{
+    color: white;
+    height: 600px;
+    background-color: #222;
+}
+
+#wrap .footer h2{
+    font-size: 60px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+#wrap .footer p{
+    font-size:18px;
+    text-align:center; 
+    margin-top: 150px;
+} 
