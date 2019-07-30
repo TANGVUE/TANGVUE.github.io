@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .wrap {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            background: linear-gradient(0deg, blue, green 40%, red);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <input type="color">
+        <input type="color">
+        <input type="color">
+    </div>
+
+    <script>
+        var deg = 0;
+        var wrap = document.getElementsByClassName('wrap')[0];
+        var color = document.getElementsByTagName('input');
+        var color1 = 'red';
+        var color2 = 'green';
+        var color3 = 'blue';
+        setInterval(function () {
+            color1 = color[0].value;
+            color2 = color[1].value;
+            color3 = color[2].value;
+            wrap.style.background = "linear-gradient(" + deg + "deg," + color1 + "," + color2 + "," + color3 + ")";
+            if (deg == 360) {
+                deg = 0;
+            }
+            deg += 2;
+        }, 50);
+    </script>
+</body>
+
+</html>
