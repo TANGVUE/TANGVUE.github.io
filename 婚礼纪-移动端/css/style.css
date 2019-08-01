@@ -1,0 +1,555 @@
+body,html{
+    width: 100%;
+}
+
+#wrap{
+    width: 100%;
+}
+
+#wrap .header{
+    padding: 0px 16px 0px 15px;
+    height: 54px;
+    line-height: 54px;
+}
+
+#wrap .header h1{
+    float: left;
+    width: 93px;
+    height: 100%;
+    text-indent: -9999px;
+    background: url(../images/logo.png) center center no-repeat;
+    background-size:100%; 
+}
+
+#wrap .header span{
+    font-size: 11px;
+    color: #393939;
+    margin-left: 10px;
+}
+
+#wrap .header a{
+    display: block;
+    margin-top: 19px;
+    float:right;
+    width: 16px;
+    height: 15px;
+    background: url(../images/toggle.png) center center no-repeat;
+    background-size: 100%;
+}
+
+#wrap .nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 10px;
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.4s;
+    background-color: white;
+}
+
+#wrap .nav .list{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-between
+}
+
+#wrap .nav .list .tab{
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+#wrap .nav .list .tab img{
+    width: 100%;
+}
+#wrap .nav .list .tab  p{
+    font-size: 12px;
+    color: #333;
+}
+
+#wrap .banner{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+#wrap .banner .lunbotu{
+    display: flex;
+    position: absolute;
+    height: 100%;
+    justify-content: flex-start;
+
+}
+#wrap .banner .lunbotu li{
+    flex: 1;
+    padding: 0px 15px;
+}
+
+#wrap .banner .lunbotu li img{
+    width: 100%;
+    height: 100%;
+}
+
+#wrap .banner .yuanjiao{
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    height: 23px;
+    background: url(../images/yunjiao.png) center center no-repeat;
+    background-size: 100%;
+}
+
+#wrap .menu{
+    height: 160px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#wrap .menu .content{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#wrap .menu .content .item{
+    flex: 1;
+    height: 100%;
+    text-align: center;
+}
+
+#wrap .menu .content .item img{
+    width: 100%;
+}
+#wrap .menu .content .item p{
+    font-size: 12px;
+    color: #353535;
+}
+
+#wrap .main1{
+    padding: 0px 15px;
+    display: flex;
+    height: 165px;
+    justify-content: space-between;
+}
+#wrap .main1 >div{
+    width: 49%;
+    height: 100%;
+}
+
+#wrap .main1 .bgbox{
+    border-radius: 10px;
+    background: url(../images/bgbox.png) center center no-repeat;
+    background-size:100% 100%; 
+}
+
+#wrap .main1 .minbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#wrap .main1 .minbox div{
+    width: 100%;
+    height: 49%;
+    border-radius: 10px;
+}
+#wrap .main1 .minbox div:nth-child(1){
+    background:url(../images/minbox1.png) center center no-repeat; 
+    background-size: 100% 100%;
+}
+
+#wrap .main1 .minbox div:nth-child(2){
+    background:url(../images/minbox2.jpg) center center no-repeat; 
+    background-size: 100% 100%;
+}
+
+#wrap .scoll-box{
+    height: 258px;
+    padding: 0px 15px;
+    margin-top: 25px;
+}
+
+#wrap .scoll-box p{
+    overflow: hidden;
+    line-height: 24px;
+}
+#wrap .scoll-box p span:nth-child(1){
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+}
+
+#wrap .scoll-box p span:nth-child(2){
+    font-size: 12px;
+    float: right;
+    color: #999999;
+}
+#wrap .scoll-box .scoll-in{
+    width:100%;
+    height: 234px; 
+    overflow: auto;
+}
+#wrap .scoll-box .scoll-in ul{
+    display: flex;
+    height: 100%;
+}
+#wrap .scoll-box .scoll-in ul li{
+    width: 140px;
+    height: 204px;
+    margin: 15px 10px;
+    flex-shrink: 0;
+    text-align: center;
+    box-shadow:0px 2px 4px #d8d7d7c4;
+}
+#wrap .scoll-box .scoll-in ul li .image{
+    width: 58px;
+    height: 58px;
+    border: 2px solid #e4e4e4;
+    border-radius: 50%;
+    background: url(../images/qiu\ \(1\).jpg) center center no-repeat;
+    background-size:100%;
+    margin: 0px auto;
+    margin-top: 30px; 
+}
+#wrap .scoll-box .scoll-in ul li  p:nth-child(3) img{
+    width: 11px;
+}
+#wrap .scoll-box .scoll-in ul li:nth-child(2) .image{
+    background: url(../images/qiu\ \(2\).jpg) center center no-repeat;
+}
+
+#wrap .scoll-box .scoll-in ul li p:nth-child(2){
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+#wrap .scoll-box .scoll-in ul li:nth-child(3) .image{
+    background: url(../images/qiu\ \(3\).jpg) center center no-repeat;
+}
+
+#wrap .scoll-box .scoll-in ul li:nth-child(4) .image{
+    background: url(../images/qiu\ \(4\).jpg) center center no-repeat;
+}
+
+
+
+#wrap .scoll-box .scoll-in ul li p:nth-child(4){
+    font-size: 12px;
+    color:#626262;
+    padding: 10px 0px;
+}
+
+#wrap .hot{
+    padding: 0px 15px;
+    height: 230px;
+    background: url(../images/bg1.png) center center  no-repeat;
+    background-size: 100%;
+}
+
+#wrap .hot p{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#wrap .hot .content{
+    width: 80%;
+    height: 133px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px #b5b5b5d4;
+    margin: 0px auto;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+#wrap .hot .content ul{
+    flex: 1;
+    width: 100%;
+    display: flex;
+}
+
+#wrap .hot .content ul li{
+    flex: 1;
+    height: 100%;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrap .gongju{
+    padding: 0px 15px;
+    height: 147px;
+}
+
+#wrap .gongju p{
+    font-size: 19px;
+    line-height: 19px;
+    font-weight: bold;
+}
+#wrap .gongju .box{
+    width: 100%;
+    height: 128px;
+    overflow: auto;
+}
+
+#wrap .gongju ul{
+    height: 107px;
+    width: 750px;
+    padding: 0px 15px;
+    display: flex;
+}
+
+#wrap .gongju ul li{
+    width: 85px;
+    height: 70px;
+    margin: 17px 5px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    padding: 0px 15px;
+    box-shadow: 0px 1px 4px #c5c5c5cf;
+}
+
+#wrap .gongju ul li img{
+    width: 22px;
+    height: 22px;
+    margin-left:10px; 
+}
+
+#wrap .gongju ul li p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#wrap .gongju ul li p span{
+    font-size: 12px;
+    color: #6a6a6a;
+}
+
+#wrap>p{
+    padding: 5px 15px;
+    font-size: 19px;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+
+#wrap .m2  .bgbox{
+    background: url(../images/main\ \(2\).png) center center no-repeat;
+    background-size:100% 100%; 
+}
+
+#wrap .m2  .minbox div:nth-child(1){
+    background: url(../images/main\ \(1\).png) center center no-repeat;
+    background-size:100% 100%; 
+}
+
+#wrap .m2  .minbox div:nth-child(3){
+    background: url(../images/main\ \(3\).png) center center no-repeat;
+    background-size:100% 100%; 
+}
+#wrap .meitu{
+    padding: 0px 15px;
+    margin-top: 20px;
+}
+
+#wrap .meitu p{
+    line-height: 20px;
+    overflow: hidden;
+}
+
+#wrap .meitu p span:nth-child(1){
+    float: left;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#wrap .meitu p span:nth-child(2){
+    float: right;
+    font-size: 12px;
+    color: #999999;
+}
+
+#wrap .meitu .top{
+    width: 100%;
+    height: 150px;
+    margin-top: 15px;
+}
+
+#wrap .meitu .top .bgimg{
+    height: 150px;
+    width: 220px;
+    float: left;
+    border-radius:10px; 
+    background: url(../images/water.jpg) center center no-repeat;
+    background-size: 100% 100%; 
+}
+#wrap .meitu .top .right{
+    float:left;
+    margin-left: 25px;
+}
+
+#wrap .meitu .top .right p{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#wrap .meitu .top .right div{
+    width: 28px;
+    height: 28px;
+    margin-top: 20px;
+} 
+#wrap .meitu .top div img{
+    width: 100%;
+}
+
+#wrap .meitu ul{
+    display: flex;
+    width: 100%;
+    height: 137px;
+}
+
+#wrap .meitu ul li{
+    flex: 1;
+    height: 120px;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+#wrap .meitu ul li .box{
+    width: 100%;height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 3px #d0d0d0;
+}
+
+#wrap .meitu ul li .box img{
+    width: 100%;
+}
+#wrap .meitu ul li .box p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+}
+#wrap .gonglue{
+    padding: 0px 15px;
+    margin-top: 15px;
+}
+#wrap .gonglue >p{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#wrap .gonglue .item{
+    height: 110px;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 3px #a0a0a085;
+}
+#wrap .gonglue .item .left{
+    position: relative;
+    width: 125px;
+    height: 100%;
+    float: left;
+}
+#wrap .gonglue .item .left img:nth-child(1){
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#wrap .gonglue .item .left img:nth-child(2){
+    position: absolute;
+    top: -9px;
+    height: 120%;
+    right: 0px;
+} 
+
+#wrap .gonglue .item  .text{
+    width: 170px;
+    float: right;
+    margin-right: 15px;
+    padding: 0px 15px;
+}
+
+#wrap .gonglue .item  .text p:nth-child(1){
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#wrap .gonglue .item  .text p:nth-child(2){
+    font-size: 12px;
+    color: #999999;
+    overflow: hidden;
+    margin-top: 15px;
+}
+#wrap .gonglue .item  .text p:nth-child(2) span{
+    float: left;
+   
+}
+
+#wrap .gonglue .item  .text p:nth-child(2) img{
+    float: right;
+    width: 27px;
+    vertical-align: middle;
+}
+
+#wrap .footer{
+    height: 143px;
+    margin-top: 15px;
+    padding: 0px 15px;
+    overflow: hidden;
+    background-color: #f2f3f7;
+}
+
+#wrap .footer .btn{
+    width: 225px;
+    margin: 0px auto;
+    height: 30px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+#wrap .footer .btn a{
+    display: block;
+    width: 100px;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#wrap .footer .btn a:nth-child(1){
+    background-color: #f83144;
+    color: white;
+}
+
+#wrap .footer .btn a:nth-child(2){
+    border:1px solid #f83144;
+    color: #f83144;
+    box-sizing: border-box;
+    margin-left: 25px;
+}
+
+#wrap .footer p{
+    text-align: center;
+    margin-top: 20px;
+    color: #a1a1a3;
+    font-size: 12px;
+}
+
+#wrap .footer p:nth-last-child(1){
+    margin-top: 10px;
+}
