@@ -13,3 +13,5 @@
 [表格](https://tangvue.github.io/%E8%A1%A8%E6%A0%BC/html/table.html);
 
 [艺龙](https://tangvue.github.io/%E8%89%BA%E9%BE%99/html/yilong.html);
+
+[搜石](https://tangvue.github.io/%E6%90%9C%E7%9F%B3%E7%BD%91/html/);
