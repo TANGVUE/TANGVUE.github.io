@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: #ccc;
+        }
+
+        .box {
+            width: 874px;
+            height: 206px;
+            margin: 100px auto;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .box .item {
+            width: 100px;
+            height: 100px;
+            background-color: #e7e7e7;
+            border-radius: 10px;
+            display: flex;
+            box-shadow: 0px 8px 13px #888888;
+        }
+
+        .box .item:nth-child(1) {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box .item:nth-child(2) {
+            justify-content: space-between;
+        }
+
+        .box .item:nth-child(2) .point:nth-child(2) {
+            align-self: flex-end;
+        }
+
+        .box .item:nth-child(3) {
+            justify-content: space-between;
+        }
+
+        .box .item:nth-child(3) .point:nth-child(2) {
+            align-self: center;
+        }
+
+        .box .item:nth-child(3) .point:nth-child(3) {
+            align-self: flex-end;
+        }
+
+        .box .item:nth-child(4) {
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .box .item:nth-child(5) {
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .box .item:nth-child(5) .list:nth-child(2) {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box .item:nth-child(6) {
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .box .item .list {
+            display: flex;
+            width: 100%;
+            height: 25px;
+            justify-content: space-between;
+        }
+
+
+        .box .item .point {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="item">
+            <div class="point"></div>
+        </div>
+        <div class="item">
+            <div class="point"></div>
+            <div class="point"></div>
+        </div>
+        <div class="item">
+            <div class="point"></div>
+            <div class="point"></div>
+            <div class="point"></div>
+        </div>
+        <div class="item">
+            <div class="list">
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+            <div class="list">
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="list">
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+            <div class="list">
+                <div class="point"></div>
+            </div>
+            <div class="list">
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="list">
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+            <div class="list">
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+            <div class="list">
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
