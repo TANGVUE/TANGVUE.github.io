@@ -18,7 +18,12 @@
         <div class="header"></div>
         <div class="nav">
             <div class="container">
-                <ul>
+                <a href="#" class="btn">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </a>
+                <ul class="toggle">
                     <li><a href="#">首页</a></li>
                     <li><a href="#">论坛</a></li>
                     <li><a href="#">快捷手册</a></li>
@@ -26,11 +31,6 @@
                     <li><a href="#">下载</a></li>
                     <li><a href="#">关于</a></li>
                 </ul>
-                <a href="#">
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                </a>
             </div>
         </div>
         <div class="main">
@@ -201,7 +201,26 @@
                 <p>Copyright © 京ICP备11008151号京公网安备11010802014853</p>
             </div>
         </div>
+
+
     </div>
+
+    <script>
+        var btn = document.getElementsByClassName('btn')[0];
+        var toggle = document.getElementsByClassName('toggle')[0];
+        var key = 0;
+
+        btn.onclick = function () {
+            console.log(1);
+            if (key == 0) {
+                toggle.style.height = "336px"
+                key = 1;
+            } else {
+                toggle.style.height = "0px"
+                key = 0;
+            }
+        }
+    </script>
 </body>
 
 </html>

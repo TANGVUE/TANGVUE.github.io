@@ -1,1 +1,1 @@
-#wrap .container{width:1170px}#wrap .main .left-box{width:66.66666666%;float:left}#wrap .main .right-box{width:33.33333333%;float:left}#wrap .footer .item{width:33.333333%}
+#wrap .container{width:1170px}#wrap .nav ul{display:flex;height:56px;flex-direction:row}#wrap .nav .container>a{display:none}#wrap .main .left-box{width:66.66666666%;float:left}#wrap .main .right-box{width:33.33333333%;float:left}#wrap .footer .item{width:33.333333%}
