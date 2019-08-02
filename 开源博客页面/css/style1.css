@@ -23,6 +23,7 @@ body {
 
 #wrap .nav {
   height: 56px;
+  line-height: 56px;
   background-color: white;
   border-bottom: 1px solid #ebebeb;
 }
@@ -31,6 +32,7 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
+  display: none;
 }
 
 #wrap .nav ul li {
@@ -49,6 +51,22 @@ body {
 #wrap .nav ul li a:hover {
   color: #e67e22;
   border-bottom: 2px solid #e67e22;
+}
+
+#wrap .nav a {
+  display: block;
+  width: 38px;
+  height: 38px;
+  padding: 0px 10px;
+  margin: 0px auto;
+}
+
+#wrap .nav a p {
+  width: 100%;
+  background-color: #6b6b6b;
+  border-radius: 5px;
+  height: 4px;
+  margin-top: 9px;
 }
 
 #wrap .main {
