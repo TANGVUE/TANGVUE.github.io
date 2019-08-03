@@ -96,13 +96,16 @@ body #wrap .main .banner, html #wrap .main .banner {
 body #wrap .main .banner .siwerp, html #wrap .main .banner .siwerp {
   position: absolute;
   display: flex;
-  width: 200%;
+  width: 400%;
   height: 100%;
+  transition: all 0.4s;
 }
 
 body #wrap .main .banner .siwerp li, html #wrap .main .banner .siwerp li {
   height: 100%;
   flex: 1;
+  transition: all 0.4s;
+  transform: translate(0, 0);
 }
 
 body #wrap .main .banner .siwerp li img, html #wrap .main .banner .siwerp li img {
@@ -326,4 +329,22 @@ body #wrap .footer a p, html #wrap .footer a p {
 
 body #wrap .footer a img, html #wrap .footer a img {
   width: 40px;
+}
+
+@keyframes flash1-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes flash1-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
