@@ -1,0 +1,355 @@
+@function vm($px) {
+    @return ($px / 750) *100vw;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+html {}
+
+#find {
+    width: 100%;
+
+    .main {
+        padding-bottom: vm(120);
+
+        .header {
+            width: 100%;
+            height: vm(322);
+            display: flex;
+            background-color: white;
+            margin-bottom: vm(20);
+
+            .text {
+                width: vm(190);
+                height: vm(76);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                position: absolute;
+                left: vm(32);
+                top: vm(48);
+
+                h3 {
+                    font-size: vm(30);
+                }
+
+                p {
+                    font-size: vm(22);
+                    color: #999999;
+                }
+            }
+
+            .h-left {
+                position: relative;
+                flex: 1;
+                border-right: 1px solid #ededed;
+
+                h3 {
+                    color: #ffc14f;
+                }
+
+                img {
+                    width: vm(142);
+                    height: vm(142);
+                    position: absolute;
+                    right: vm(24);
+                    bottom: vm(24);
+                }
+            }
+
+
+            .h-right {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+
+                img {
+                    width: vm(80);
+                    height: vm(80);
+                    position: absolute;
+                    right: vm(24);
+                    bottom: vm(36);
+                }
+
+                div {
+                    flex: 1;
+                }
+
+                .hr-top {
+                    position: relative;
+                    border-bottom: 1px solid #ededed;
+
+                    h3 {
+                        color: #c8e4f9;
+                    }
+                }
+
+                .hr-bottom {
+                    position: relative;
+
+                    h3 {
+                        color: #e26e61;
+                    }
+                }
+            }
+        }
+
+        .recommend {
+            padding: 0px vm(20);
+            margin-bottom: vm(22);
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .title {
+                width: 100%;
+
+
+                >p:nth-child(1) {
+                    font-size: vm(34);
+                    padding: 0 vm(10);
+                    font-weight: bold;
+                    text-align: center;
+                }
+
+                >p:nth-child(2) {
+                    color: #979797;
+                    font-size: vm(18);
+                    padding: 0 vm(10);
+                    text-align: center;
+                }
+            }
+
+            .item {
+                width: vm(344);
+                height: vm(530);
+                border: 1px solid #f0f0f0;
+                margin-top: vm(20);
+
+                img {
+                    width: 100%;
+                    height: vm(344);
+                }
+
+                .text {
+                    padding: vm(10) vm(20);
+                    border-bottom: 1px dashed #d0d0d0;
+
+                    .shop-name {
+                        width: 100%;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        font-size: vm(28);
+                        font-weight: bold;
+                    }
+
+                    p:nth-child(2) {
+                        color: #858585;
+                        font-size: vm(20);
+
+                        span:nth-child(2) {
+                            margin-left: vm(22);
+                        }
+                    }
+
+                    p:nth-child(3) {
+                        span:nth-child(1) {
+                            font-size: vm(24);
+                            color: #e9671c;
+                            vertical-align: middle;
+                        }
+
+                        span:nth-child(2) {
+                            display: inline-block;
+                            width: vm(94);
+                            height: vm(26);
+                            vertical-align: middle;
+                            border: 1px solid #be887e;
+                            color: #be887e;
+                            font-size: vm(20);
+                            text-align: center;
+                            line-height: vm(26);
+                        }
+                    }
+                }
+
+                .shop {
+                    height: vm(64);
+                    font-size: vm(20);
+                    line-height: vm(64);
+                    text-align: center;
+                    color: #999999;
+                }
+            }
+
+            .more {
+                width: 100%;
+                padding: vm(38) 0;
+                text-align: center;
+                font-size: vm(24);
+                color: #bebebe;
+            }
+
+
+        }
+
+
+
+        .good {
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 vm(30);
+
+            .title {
+                width: 100%;
+
+                >p:nth-child(1) {
+                    font-size: vm(34);
+                    padding: 0 vm(10);
+                    font-weight: bold;
+                    text-align: center;
+                }
+
+                >p:nth-child(2) {
+                    color: #979797;
+                    font-size: vm(18);
+                    padding: 0 vm(10);
+                    text-align: center;
+                }
+            }
+
+            .item {
+                position: relative;
+                flex: 1;
+                height: vm(324);
+
+                .youhui {
+                    top: 0px;
+                    left: 0px;
+                    width: vm(98);
+                    height: vm(37);
+                    background-color: #423e3d;
+                    color: white;
+                    font-size: vm(18);
+                    text-align: center;
+                    line-height: vm(37);
+                }
+
+                p:nth-child(2) {
+                    position: absolute;
+                    font-size: vm(24);
+                    width: 100%;
+                    bottom: vm(50);
+                }
+
+                p:nth-child(3) {
+                    position: absolute;
+                    bottom: vm(5);
+
+                    span:nth-child(1) {
+                        font-size: vm(24);
+                        color: #e9671c;
+                    }
+
+                    span:nth-child(2) {
+                        font-size: vm(16);
+                        color: #bebebe;
+                    }
+                }
+            }
+
+            .more {
+                width: 100%;
+                padding: vm(38) 0;
+                text-align: center;
+                font-size: vm(24);
+                color: #bebebe;
+            }
+
+        }
+    }
+
+    .footer {
+        width: 100%;
+        height: vm(105);
+        box-shadow: 0px 0px 3px #dcdcdc;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        background-color: white;
+        display: flex;
+
+        .tab {
+            position: relative;
+            flex: 1;
+            height: 100%;
+            text-align: center;
+            color: #808080;
+
+            a {
+                display: block;
+                height: 100%;
+
+            }
+
+            a:active {
+                text-decoration: none;
+                color: #808080;
+            }
+
+            a:visited {
+                text-decoration: none;
+            }
+
+            &:nth-child(2) p {
+                color: #1a9df5 !important;
+            }
+
+            &:nth-child(1) i {
+
+                font-size: 11vw !important;
+                left: 50%;
+                position: absolute;
+                transform: translateX(-50%);
+                top: -0.22rem;
+            }
+
+            &:nth-child(2) i {
+                font-size: 8vw !important;
+                color: #1a9df5 !important;
+            }
+
+            &:nth-child(3) i {
+
+                font-size: 8vw !important;
+            }
+
+            &:nth-child(4) i {
+
+                left: 50%;
+                position: absolute;
+                transform: translateX(-50%);
+                font-size: 7vw !important;
+                top: 1vw;
+            }
+
+            p {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: .24rem;
+                color: #808080;
+                bottom: .106667rem;
+            }
+        }
+    }
+
+}
