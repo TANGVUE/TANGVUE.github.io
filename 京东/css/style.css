@@ -1,0 +1,349 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+}
+
+#wrap i {
+  font-style: normal;
+}
+
+#wrap .header {
+  padding: 0vw 2.66667vw;
+  height: 12vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#wrap .header .icon-zuo {
+  font-size: 5.33333vw !important;
+  color: #5b5a68;
+}
+
+#wrap .header span {
+  font-size: 4vw;
+}
+
+#wrap .header ul {
+  width: 5.33333vw;
+  height: 0.8vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#wrap .header ul li {
+  width: 0.8vw;
+  height: 0.8vw;
+  background-color: #646270;
+}
+
+#wrap .main {
+  flex: 1;
+  width: 100%;
+  overflow: auto;
+}
+
+#wrap .main .top {
+  width: 100%;
+  height: 47.73333vw;
+  background-color: #ff4a2b;
+}
+
+#wrap .main .top .search {
+  width: 82.13333vw;
+  height: 8vw;
+  line-height: 8vw;
+  border-radius: 5.33333vw;
+  margin: 0px auto;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  background: white url(../images/fire.png) 9.33333vw center no-repeat;
+  background-size: 2.66667vw;
+}
+
+#wrap .main .top .search .icon-search {
+  font-size: 4.4vw !important;
+  color: #dcdcdc;
+  margin-left: 4vw;
+  vertical-align: middle;
+}
+
+#wrap .main .top .search input {
+  width: 61.33333vw;
+  height: 8vw;
+  margin-left: 6.66667vw;
+  font-size: 3.46667vw;
+  vertical-align: top;
+}
+
+#wrap .main .top .search input::placeholder {
+  text-align: center;
+  font-size: 3.46667vw;
+  color: #9c9c9c;
+}
+
+#wrap .main .top ul {
+  padding: 1.33333vw 4vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#wrap .main .top ul li {
+  font-size: 3.46667vw;
+  text-align: center;
+  color: #fff4fe;
+}
+
+#wrap .main .top .img-box {
+  width: 92vw;
+  height: 26.66667vw;
+  border-radius: 1.33333vw;
+  overflow: hidden;
+  transform: translateY(6.66667vw);
+  margin: 0 auto;
+}
+
+#wrap .main .top .img-box img {
+  width: 100%;
+  height: 100%;
+}
+
+#wrap .main .menu {
+  width: 100%;
+  height: 42.66667vw;
+  display: flex;
+  margin-top: 10.66667vw;
+  margin-bottom: 2.66667vw;
+  flex-direction: column;
+}
+
+#wrap .main .menu .list {
+  flex: 1;
+  width: 100%;
+  display: flex;
+}
+
+#wrap .main .menu .list .item {
+  flex: 1;
+  height: 100%;
+  text-align: center;
+}
+
+#wrap .main .menu .list .item img {
+  width: 10.93333vw;
+}
+
+#wrap .main .menu .list .item p {
+  font-size: 2.93333vw;
+  color: #686868;
+  margin-top: 1.33333vw;
+}
+
+#wrap .main .hot {
+  padding: 0 4vw;
+}
+
+#wrap .main .hot p {
+  font-size: 0px;
+}
+
+#wrap .main .hot p span:nth-child(1) {
+  font-size: 4.4vw;
+  font-weight: bold;
+}
+
+#wrap .main .hot p span:nth-child(2) {
+  font-size: 4.4vw;
+  font-weight: bold;
+  color: #ff4a2b;
+}
+
+#wrap .main .hot p span:nth-child(3) {
+  display: inline-block;
+  border: 1px solid #ff4a2b;
+  border-radius: 1.33333vw 0 0 0;
+  color: #ff4a2b;
+  font-size: 2.93333vw;
+  padding: 0.26667vw 1.33333vw;
+  margin-left: 2.93333vw;
+}
+
+#wrap .main .hot p span:nth-child(4) {
+  background-color: #ff4a2b;
+  font-size: 2.13333vw;
+  color: white;
+  padding: 0.53333vw 1.33333vw;
+  border-radius: 0 2.66667vw 2.66667vw 0;
+}
+
+#wrap .main .hot p span:nth-child(5) {
+  font-size: 3.06667vw;
+  color: #686868;
+  float: right;
+}
+
+#wrap .main .hot .list {
+  width: 100%;
+  display: flex;
+  margin-top: 2.66667vw;
+  justify-content: space-between;
+}
+
+#wrap .main .hot .list .list-row {
+  width: 28.8vw;
+  height: 44vw;
+}
+
+#wrap .main .hot .list .list-row img {
+  width: 100%;
+  height: 28.8vw;
+}
+
+#wrap .main .hot .list .list-row p:nth-child(2) {
+  color: #ff4a2b;
+  text-align: center;
+  padding: 2.13333vw 0;
+}
+
+#wrap .main .hot .list .list-row p:nth-child(2) span:nth-child(1) {
+  font-size: 3.06667vw;
+}
+
+#wrap .main .hot .list .list-row p:nth-child(2) span:nth-child(1) {
+  font-size: 3.46667vw;
+}
+
+#wrap .main .hot .list .list-row p:nth-child(3) {
+  color: #9c9c9c;
+  text-align: center;
+  font-size: 3.06667vw;
+}
+
+#wrap .main .shop-box {
+  padding: 0 4vw;
+  margin-top: 2.66667vw;
+  margin-bottom: 2.66667vw;
+}
+
+#wrap .main .shop-box > p {
+  text-align: center;
+}
+
+#wrap .main .shop-box > p span:nth-child(1) {
+  font-size: 4.26667vw;
+  font-weight: bold;
+  color: #ff4a2b;
+}
+
+#wrap .main .shop-box > p span:nth-child(2) {
+  font-size: 4.8vw;
+  font-weight: bold;
+}
+
+#wrap .main .shop-box .list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#wrap .main .shop-box .list .shop {
+  width: 44.8vw;
+  height: 72.53333vw;
+  margin-top: 2.66667vw;
+  box-shadow: 0px 0px 3px #b9b9b98f;
+  flex-shrink: 0;
+  border-radius: 2.66667vw;
+  overflow: hidden;
+}
+
+#wrap .main .shop-box .list .shop img {
+  width: 100%;
+  height: 44.66667vw;
+}
+
+#wrap .main .shop-box .list .shop p {
+  padding: 0 4vw;
+}
+
+#wrap .main .shop-box .list .shop p:nth-child(2) {
+  font-size: 3.46667vw;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 9.86667vw;
+  margin: 1.33333vw 0;
+}
+
+#wrap .main .shop-box .list .shop p:nth-child(3) {
+  padding-top: 1.33333vw;
+  padding-bottom: 1.33333vw;
+}
+
+#wrap .main .shop-box .list .shop p:nth-child(3) span {
+  color: #ff4a2b;
+}
+
+#wrap .main .shop-box .list .shop p:nth-child(3) span:nth-child(1) {
+  font-size: 3.06667vw;
+}
+
+#wrap .main .shop-box .list .shop p:nth-child(3) span:nth-child(2) {
+  font-size: 3.73333vw;
+}
+
+#wrap .main .shop-box .list .shop p:nth-child(4) {
+  font-size: 2.93333vw;
+  color: #aaaaaa;
+}
+
+#wrap .footer {
+  width: 100%;
+  height: 13.33333vw;
+  box-shadow: 0px 0px 3px #dededec4;
+  display: flex;
+}
+
+#wrap .footer .tab {
+  position: relative;
+  flex: 1;
+  height: 100%;
+  text-align: center;
+  color: #999999;
+}
+
+#wrap .footer .tab img {
+  width: 5.06667vw;
+  height: 5.06667vw;
+  margin-top: 2.4vw;
+}
+
+#wrap .footer .tab p {
+  text-align: center;
+  font-size: 2.53333vw;
+  margin-top: 1.33333vw;
+}
+
+#wrap .footer .tab .qipao {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 9.06667vw;
+  height: 3.73333vw;
+  background: linear-gradient(to right, #e9403d, #fc9471);
+  border-radius: 2.66667vw 2.66667vw 2.66667vw 0;
+  color: white;
+  font-size: 1.86667vw;
+  line-height: 3.73333vw;
+  text-align: center;
+}
