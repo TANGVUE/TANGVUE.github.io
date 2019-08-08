@@ -371,9 +371,9 @@ body {
                 .icon {
                     display: inline-block;
                     width: vw(36);
-                    height: vw(34);
-                    background: url(../images/channel-icon-20180918.png) vw(-5.63) vw(-7.74) no-repeat;
-                    background-size: vw(304);
+                    height: vw(36);
+                    background: url(../images/channel-icon-20180918.png) 0 0 no-repeat;
+                    background-size: vw(216);
                     vertical-align: middle;
                 }
 
@@ -384,12 +384,10 @@ body {
                 }
 
                 &:nth-child(4) {
-                    display: flex;
-                    height: vw(60);
-                    margin-top: vw(40);
+                    display: flex;height: vw(60);
+margin-top: vw(40);
 
-                    span {
-                        flex: 1;
+span {          flex: 1;
                         text-align: center;
                         line-height: vw(60);
                         color: #32c433;
