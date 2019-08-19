@@ -71,8 +71,8 @@
             fang.style.opacity = '1';
             slider.style.top = startY - 100 + 'px';
             slider.style.left = startX - 100 + 'px';
-            slider.style.top = startY - 400 + 'px';
-            slider.style.left = startX + 200 + 'px';
+            fang.style.top = startY - 200 + 'px';
+            fang.style.left = startX + 200 + 'px';
             console.log(111);
 
             box.onmousemove = sliderMove;
@@ -100,7 +100,7 @@
                 }
                 slider.style.top = moveY + 'px';
                 slider.style.left = moveX + 'px';
-                fang.style.top = moveY - 400 + 'px';
+                fang.style.top = moveY - 200 + 'px';
                 fang.style.left = moveX + 200 + 'px';
                 fang.style.backgroundPosition = moveX * -2 + 'px' + ' ' + moveY * -2 + 'px';
             }
