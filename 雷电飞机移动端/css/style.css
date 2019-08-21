@@ -1,0 +1,141 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#wrap .home {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: block;
+}
+
+#wrap .home h1 {
+  font-size: 8vw;
+  font-weight: normal;
+  margin-top: 26.66667vw;
+  text-align: center;
+}
+
+#wrap .home a {
+  display: block;
+  width: 53.33333vw;
+  height: 10.66667vw;
+  color: black;
+  font-size: 4vw;
+  line-height: 10.66667vw;
+  text-align: center;
+  border-radius: 4vw;
+  border: 0.53333vw solid black;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 13.33333vw;
+}
+
+#wrap .home p {
+  font-size: 3.2vw;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 8vw;
+}
+
+#wrap .map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: none;
+}
+
+#wrap .map .head {
+  position: fixed;
+  z-index: 99;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 6.66667vw;
+  margin-top: 1.33333vw;
+  line-height: 6.66667vw;
+}
+
+#wrap .map .head a {
+  display: block;
+  width: 26.66667vw;
+  height: 100%;
+  border-radius: 4vw;
+  background-color: black;
+  font-size: 4vw;
+  text-align: center;
+  color: white;
+  float: left;
+  margin-left: 5.33333vw;
+  text-decoration: none;
+}
+
+#wrap .map .head span {
+  color: black;
+  font-size: 4vw;
+  float: right;
+  margin-right: 5.33333vw;
+}
+
+#wrap .map .head span:nth-child(2) {
+  font-weight: bold;
+  color: red;
+}
+
+#wrap .map .airplane {
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  width: 21.33333vw;
+  height: 29.33333vw;
+  background: url(../img/feiji4.png) center center no-repeat;
+  background-size: 21.33333vw 30.66667vw;
+}
+
+#wrap .map .fire {
+  width: 18.66667vw;
+  height: 26.66667vw;
+  position: absolute;
+  background: url(../img/zidan.png) center center no-repeat;
+  background-size: 26.66667vw 100%;
+}
+
+#wrap .map .fire1 {
+  width: 18.66667vw;
+  height: 26.66667vw;
+  display: none;
+}
+
+#wrap .map .enemy {
+  width: 21.33333vw;
+  height: 29.33333vw;
+  position: absolute;
+  left: 45%;
+  top: 40%;
+  background: url(../img/feiji2.png) center center no-repeat;
+  background-size: 26.66667vw 32vw;
+}
+
+#wrap .map .enemy1 {
+  width: 21.33333vw;
+  height: 29.33333vw;
+  display: none;
+}
